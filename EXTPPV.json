@@ -1,5 +1,16 @@
 {
     "version": 1,
+    "retry_attempts": 3,
+    "retry_delay_ms": 200,
+    "dns_system_first": true,
+    "dns_preheat_hosts": [
+        "embedindia.st",
+        "indianservers.st",
+        "netanyahu.indianservers.st",
+        "shiva.indianservers.st",
+        "vishnu.indianservers.st",
+        "p16-common-sign.tiktokcdn-eu.com"
+    ],
     "embed_origin": "https://embedindia.st",
     "embed_fetch": "https://embedindia.st/fetch",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
